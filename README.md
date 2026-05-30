@@ -179,6 +179,14 @@
 * Eclipse
 * MySQL Workbench
 
+## 実行時の注意
+
+DB接続情報は各自の環境に合わせて `DBUtil.java` を変更してください。
+
+```java
+private static final String USER = "root";
+private static final String PASSWORD = "your_password";
+
 ## 作者
 
 Taku Yamazaki
