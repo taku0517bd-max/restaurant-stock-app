@@ -10,7 +10,7 @@ public class DBUtil {
             "jdbc:mysql://localhost:3306/restaurant_stock_db?useSSL=false&serverTimezone=UTC";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "StockApp2026!";
+    private static final String PASSWORD = "your_password";
 
     public static Connection getConnection() throws SQLException {
         try {
